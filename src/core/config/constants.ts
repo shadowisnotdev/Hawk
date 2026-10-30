@@ -1,0 +1,16 @@
+export const constants = {
+  defaultPrefix: '!',
+  dbPoolMax: 10,
+  dbIdleTimeout: 15,
+  dbConnectTimeout: 30,
+  dbMaxLifetime: 600,
+  maxCooldownEntries: 500,
+  cooldownCleanupInterval: 60_000,
+  maxInteractionStates: 100,
+  interactionStateTtl: 300_000,
+  webhookMinInterval: 2_000,
+  webhookBatchSize: 5,
+  webhookFlushInterval: 10_000,
+  fuseThreshold: 0.4,
+  fuseMaxResults: 5,
+} as const;
